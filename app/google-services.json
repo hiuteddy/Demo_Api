@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "386257323111",
+    "project_id": "demoapi-8f2ce",
+    "storage_bucket": "demoapi-8f2ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386257323111:android:2c94043316f0e194c000c2",
+        "android_client_info": {
+          "package_name": "hieunnph32561.fpoly.demo_api"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaqNspLpSeILTRuWdLEs7fttuiYlYQuu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

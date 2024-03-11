@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:layout_margin="15dp"
+        android:background="@drawable/edit_text_background"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/buttonSendResetEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/black"
+        android:layout_margin="10dp"
+        android:background="@drawable/edit_text_background"
+        android:text="Send Reset Email" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextConfirmationCode"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:hint="Confirmation Code"-->
+<!--        android:inputType="text" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/buttonConfirmCode"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/editTextConfirmationCode"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:text="Confirm Code" />-->
+
+</LinearLayout>

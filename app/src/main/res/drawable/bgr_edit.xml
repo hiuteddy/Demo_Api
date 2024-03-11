@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Trạng thái khi EditText được chọn -->
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/black" />
+            <!-- Các thuộc tính khác cho trạng thái này nếu cần -->
+        </shape>
+    </item>
+
+
+
+</selector>
